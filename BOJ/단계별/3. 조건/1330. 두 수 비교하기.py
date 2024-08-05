@@ -8,5 +8,4 @@ else:
     print('==')
 
 # 숏코딩
-a,b=map(int,input().split())
-print(['><'[a<b],'=='][a==b])
+a, b = map(int, input().split()); print(['><'[a<b], '=='][a==b])
